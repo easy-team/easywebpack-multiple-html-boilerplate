@@ -1,6 +1,6 @@
 {
   "name": "easywebpack-multiple-html-boilerplate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "HTML静态多页面Webpack构建工程化解决方案骨架",
   "keywords": [
     "webpack",
