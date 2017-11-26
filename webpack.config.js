@@ -1,5 +1,5 @@
 module.exports = {
-  env:process.env.BUILD_ENV,
+  framework: 'html',
   entry: {
     include: 'page',
     template: 'view/layout.html'

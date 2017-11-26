@@ -30,8 +30,8 @@
     "progress-bar-webpack-plugin": "^1.10.0"
   },
   "scripts": {
-    "build": "cross-env BUILD_ENV=prod node build",
-    "start": "cross-env NODE_SERVER=true node build",
+    "build": "cross-env easy build prod",
+    "start": "cross-env easy server",
     "lint": "eslint .",
     "fix": "eslint --fix .",
     "test": "mocha test",

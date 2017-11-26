@@ -10,14 +10,31 @@ HTML静态多页面Webpack构建工程化解决方案骨架
 - 支持 css, sass, less, styus 
 - 支持构建结构UI展示
 - 支持独立HTML模板和全局HTML模版
+- 支持 [easywebpack-cli](https://github.com/hubcarl/easywebpack-cli) 创建项目和构建
 
 更多特性请见 [基于 Webpack 的前端构建工程化解决方案](https://github.com/hubcarl/easywebpack)
+
+## 安装
+
+```bash
+npm install
+```
+
+```bash
+npm install easywebpack-cli -g
+```
 
 ## 运行
 
 
 ```bash
-npm start
+npm start 
+
+// or
+easy start
+
+// or
+node build
 ```
 
 
@@ -25,6 +42,12 @@ npm start
 
 ```bash
 npm run build
+
+// or
+easy build prod 
+
+// or
+node build
 ```
 
 ## HTML模板
