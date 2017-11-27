@@ -14,13 +14,14 @@ module.exports = {
     }
   },
   loaders: {
-
+    nunjucks: {
+      enable: true,
+      options: {
+        searchPaths: ['./widget']
+      }
+    }
   },
-  plugins: {
-
-  },
-  create() {
-  },
+  plugins: {},
   done() {
 
   }

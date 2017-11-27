@@ -4,7 +4,8 @@ HTML静态多页面Webpack构建工程化解决方案骨架
 
 ## 特性
 
-- 支持HTML静态多页面构建
+- 支持 HTML 静态多页面构建
+- 支持 nunjucks 模板静态多页面构建
 - 支持 Webpack 构建自动刷新功能
 - 支持 babel, es6, postcss, eslint等特性
 - 支持 css, sass, less, styus 
