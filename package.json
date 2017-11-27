@@ -27,9 +27,11 @@
     "html-webpack-plugin": "^2.30.1",
     "imagemin-webpack-plugin": "^1.5.2",
     "mocha": "^3.4.2",
+    "node-sass": "^4.7.2",
     "nunjucks-html-loader": "^1.1.0",
     "postcss-loader": "^2.0.6",
-    "progress-bar-webpack-plugin": "^1.10.0"
+    "progress-bar-webpack-plugin": "^1.10.0",
+    "sass-loader": "^6.0.6"
   },
   "scripts": {
     "build": "cross-env easy build prod",

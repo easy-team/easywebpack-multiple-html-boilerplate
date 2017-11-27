@@ -14,6 +14,7 @@ module.exports = {
     }
   },
   loaders: {
+    scss: true,
     nunjucks: {
       enable: true,
       options: {
