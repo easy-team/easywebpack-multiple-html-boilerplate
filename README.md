@@ -8,7 +8,7 @@ HTML静态多页面Webpack构建工程化解决方案骨架
 - 支持 Webpack 构建自动刷新功能
 - 支持 babel, es6, postcss, eslint等特性
 - 支持 css, sass, less, styus 
-- 支持构建结构UI展示
+- 支持构建结果UI展示
 - 支持独立HTML模板和全局HTML模版
 - 支持 [easywebpack-cli](https://github.com/hubcarl/easywebpack-cli) 创建项目和构建
 
