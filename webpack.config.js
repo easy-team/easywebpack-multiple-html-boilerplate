@@ -18,7 +18,7 @@ module.exports = {
     nunjucks: {
       enable: true,
       options: {
-        searchPaths: ['./widget']
+        searchPaths: ['./widget','./test']
       }
     }
   },
