@@ -57,3 +57,21 @@ node build
 - 全局模板(entry.template), 没有独立模板时,将采用全局模板.
 
 HTML构建时, 首先取独立模板,如果文件存在,则使用独立模板, 否则取全局模板.
+
+## nunjucks
+
+nunjucks loader 默认是禁用， 你可以通过如下方式开启：
+
+```js
+module.exports = {
+  loaders: {
+    nunjucks: {
+      options: {
+        searchPaths: ['./widget', './test']  // nunjucks 模板查找目录
+      }
+    }
+  },
+}
+```
+
+
