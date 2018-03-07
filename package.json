@@ -4,7 +4,9 @@
   "description": "HTML 静态多页面 Webpack 构建工程化解决方案骨架",
   "keywords": [
     "webpack",
-    "easywebpack"
+    "webpack-html",
+    "easywebpack",
+    "nunjucks"
   ],
   "dependencies": {},
   "devDependencies": {

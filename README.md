@@ -63,6 +63,7 @@ HTML构建时, 首先取独立模板,如果文件存在,则使用独立模板, �
 nunjucks loader 默认是禁用， 你可以通过如下方式开启：
 
 ```js
+// webpack.config.js
 module.exports = {
   loaders: {
     nunjucks: {
@@ -70,6 +71,20 @@ module.exports = {
         searchPaths: ['./widget', './test']  // nunjucks 模板查找目录
       }
     }
+  },
+}
+```
+
+## HTTP Proxy 
+
+use [koa-proxy](https://github.com/popomore/koa-proxy) plugin proxy http request:
+
+```js
+// webpack.config.js
+module.exports = {
+  proxy: {
+    host:  'http://localhost:8888',   
+    match: /\/debug/
   },
 }
 ```
