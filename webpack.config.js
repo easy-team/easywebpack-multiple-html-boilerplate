@@ -18,6 +18,10 @@ module.exports = {
     }
   },
   plugins: {},
+  proxy: {
+    host:  'http://localhost:8888',   
+    match: /\/debug/
+  },
   done() {
 
   }
