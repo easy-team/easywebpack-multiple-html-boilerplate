@@ -15,6 +15,11 @@ HTML静态多页面Webpack构建工程化解决方案骨架
 
 更多特性请见 [基于 Webpack 的前端构建工程化解决方案](https://github.com/hubcarl/easywebpack)
 
+# 版本
+
+- easywebpack-html ^4.x.x > webpack 4.x.x 
+- easywebpack-html ^2.x.x > webpack 3.x.x 
+
 ## 安装
 
 ```bash
