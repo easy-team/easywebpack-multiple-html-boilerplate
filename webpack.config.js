@@ -1,6 +1,7 @@
 module.exports = {
   framework: 'html',
   entry: 'src',
+  devtool: 'source-map',
   template: 'view/layout.html',
   alias: {
     asset: 'asset',
