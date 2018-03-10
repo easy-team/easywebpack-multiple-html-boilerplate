@@ -1,6 +1,5 @@
 {
   "env": {
-    "node": true,
     "es6": true,
     "mocha": true
   },
@@ -16,6 +15,7 @@
     "new-cap": "off",
     "newline-after-var": "off",
     "no-invalid-this": "off",
+    "func-style": "off",
     "quotes": [
       "error",
       "single"
@@ -25,10 +25,6 @@
     "no-undefined": "off",
     "array-bracket-spacing": "off",
     "no-unused-expressions": "off",
-    "func-style": [
-      "error",
-      "expression"
-    ],
     "comma-dangle": [
       "error",
       "never"

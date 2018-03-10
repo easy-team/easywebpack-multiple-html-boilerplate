@@ -3,6 +3,7 @@ module.exports = {
   entry: 'src',
   template: 'view/layout.html',
   alias: {
+    tool: 'lib/tool/index.js',
     asset: 'asset',
     jquery: 'asset/js/jquery-3.2.1.min.js'
   },

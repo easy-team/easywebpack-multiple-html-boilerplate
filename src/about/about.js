@@ -1,4 +1,4 @@
 import './about.css';
-import 'easy4';
+import 'tool';
 
 console.log(cube(4));
