@@ -34,12 +34,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hubcarl/easywebpack-static-template.git"
+    "url": "git+https://github.com/easy-team/easywebpack-multiple-html-boilerplate.git"
   },
   "bugs": {
-    "url": "https://github.com/hubcarl/easywebpack-static-template/issues"
+    "url": "https://github.com/easy-team/easywebpack-multiple-html-boilerplate/issues"
   },
-  "homepage": "https://github.com/hubcarl/easywebpack-static-template#readme",
+  "homepage": "https://github.com/easy-team/easywebpack-multiple-html-boilerplate#readme",
   "author": "hubcarl@126.com",
   "license": "MIT"
 }
