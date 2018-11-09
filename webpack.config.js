@@ -1,6 +1,6 @@
 module.exports = {
   framework: 'html',
-  entry: 'src',
+  entry: 'src/**/*.js',
   devtool: 'source-map',
   template: 'view/layout.html',
   alias: {
@@ -19,10 +19,6 @@ module.exports = {
     }
   },
   plugins: {},
-  proxy: {
-    host:  'http://localhost:8888',   
-    match: /\/debug/
-  },
   done() {
 
   }
